@@ -13,7 +13,22 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+        display: ['Fraunces', 'Georgia', 'serif'],
+      },
+      backgroundImage: {
+        'gradient-brand': 'var(--gradient-brand)',
+      },
+      boxShadow: {
+        soft: 'var(--shadow-soft)',
+        elevated: 'var(--shadow-elevated)',
+      },
       colors: {
+        ink: 'hsl(var(--ink))',
+        'ink-soft': 'hsl(var(--ink-soft))',
+        surface: 'hsl(var(--surface))',
+        'surface-strong': 'hsl(var(--surface-strong))',
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
