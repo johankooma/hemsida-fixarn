@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-measurement.jpg";
+import heroImage from "@/assets/hero-emc.jpg";
 
 export const Hero = () => {
   return (
@@ -20,18 +20,18 @@ export const Hero = () => {
           <div className="lg:col-span-7">
             <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-accent text-accent-foreground text-xs font-medium mb-8">
               <span className="size-1.5 rounded-full bg-primary" />
-              Ingenjörspartner sedan 2008
+              EMC & Elkvalitet — sedan 2014
             </div>
 
             <h1 className="font-display text-5xl sm:text-6xl lg:text-7xl xl:text-[5.5rem] font-light leading-[0.95] tracking-tight text-ink text-balance mb-8">
-              Precision i varje{" "}
-              <span className="italic text-primary">mätning</span>.
+              EMC och elkvalitet —{" "}
+              <span className="italic text-primary">mätt på riktigt</span>.
             </h1>
 
             <p className="text-lg sm:text-xl text-ink-soft max-w-2xl leading-relaxed mb-10">
-              Kooma Engineering är din erfarna partner inom mätteknik,
-              tester och validering. Vi hjälper svensk industri att nå
-              högre kvalitet — med data du kan lita på.
+              Kooma Engineering är din erfarna partner inom EMC-mätningar,
+              elkvalitetsanalys och elektroniktester. Vi hjälper svensk
+              industri att hitta störningarna — och bevisa att det fungerar.
             </p>
 
             <div className="flex flex-wrap gap-3">
@@ -57,17 +57,17 @@ export const Hero = () => {
               <div className="aspect-[4/5] rounded-2xl overflow-hidden bg-surface-strong shadow-elevated">
                 <img
                   src={heroImage}
-                  alt="Kooma-ingenjör utför precisionsmätning på industrikomponent i mätlabb"
+                  alt="Kooma-ingenjör utför EMC-mätning i ekofritt rum med spektrumanalysator"
                   width={1024}
                   height={1280}
                   className="w-full h-full object-cover"
                 />
               </div>
               {/* Floating stat card */}
-              <div className="absolute -bottom-6 -left-6 sm:-left-10 bg-background border border-border shadow-soft rounded-xl px-5 py-4 max-w-[220px]">
-                <div className="font-display text-3xl text-ink">±0.001 mm</div>
+              <div className="absolute -bottom-6 -left-6 sm:-left-10 bg-background border border-border shadow-soft rounded-xl px-5 py-4 max-w-[240px]">
+                <div className="font-display text-3xl text-ink">9 kHz – 6 GHz</div>
                 <div className="text-xs text-ink-soft mt-1">
-                  Mätosäkerhet vid kalibrering
+                  Frekvensområde EMC pre-compliance
                 </div>
               </div>
             </div>
