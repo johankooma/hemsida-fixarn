@@ -1,29 +1,29 @@
 import { ArrowUpRight } from "lucide-react";
-import metrology from "@/assets/service-metrology.jpg";
-import testing from "@/assets/service-testing.jpg";
-import consulting from "@/assets/service-consulting.jpg";
+import emc from "@/assets/service-emc.jpg";
+import powerQuality from "@/assets/service-power-quality.jpg";
+import engineering from "@/assets/service-engineering.jpg";
 
 const services = [
   {
-    image: metrology,
-    eyebrow: "01 — Mätteknik",
-    title: "Mätningar med absolut precision",
+    image: emc,
+    eyebrow: "01 — EMC-mätningar",
+    title: "Hitta störningarna innan kunden gör det",
     description:
-      "Dimensionskontroll, kalibrering och 3D-mätning av komponenter. Vi arbetar med ackrediterad utrustning och dokumenterar varje detalj.",
+      "Pre-compliance och felsökning enligt EN/IEC-standarder. Emission, immunitet och near-field-analys — vi tar dig hela vägen till godkänd produkt.",
   },
   {
-    image: testing,
-    eyebrow: "02 — Tester & Validering",
-    title: "Tester som bevisar att det håller",
+    image: powerQuality,
+    eyebrow: "02 — Elkvalitet",
+    title: "Stabil el — bevisad med data",
     description:
-      "Funktionella tester, vibrations- och hållfasthetstester samt validering enligt branschstandarder. Tydliga rapporter — inga gissningar.",
+      "Mätning och analys av övertoner, transienter, flicker och obalans enligt EN 50160. Vi pekar ut roten till problemet, inte bara symptomen.",
   },
   {
-    image: consulting,
+    image: engineering,
     eyebrow: "03 — Ingenjörskonsulter",
-    title: "Erfarna ingenjörer i ditt projekt",
+    title: "Erfarna elektroingenjörer i ditt projekt",
     description:
-      "Vi förstärker ditt team med seniora konstruktörer, beräkningsingenjörer och projektledare när du behöver det som mest.",
+      "Vi förstärker ditt team med seniora konstruktörer och mätingenjörer inom elektronik, EMC och kraftelektronik när du behöver det som mest.",
   },
 ];
 

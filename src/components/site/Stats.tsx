@@ -1,6 +1,6 @@
 const stats = [
-  { value: "16+", label: "års erfarenhet" },
-  { value: "500+", label: "genomförda uppdrag" },
+  { value: "11", label: "års erfarenhet" },
+  { value: "450+", label: "genomförda uppdrag" },
   { value: "40+", label: "industrikunder" },
   { value: "100%", label: "leverans i tid" },
 ];
@@ -23,10 +23,10 @@ export const Stats = () => {
           </div>
           <div className="lg:col-span-5">
             <p className="text-lg text-background/70 leading-relaxed">
-              Sedan 2008 har vi hjälpt svensk industri att verifiera,
-              validera och utveckla. Vi är ingen jätte — och det är
-              poängen. Du får erfarna ingenjörer som tar ansvar från
-              första mötet till levererad rapport.
+              Sedan 2014 har vi hjälpt svensk industri med EMC-mätningar,
+              elkvalitetsanalys och elektroniktester. Vi är ingen jätte —
+              och det är poängen. Du får erfarna ingenjörer som tar
+              ansvar från första mötet till levererad rapport.
             </p>
           </div>
         </div>

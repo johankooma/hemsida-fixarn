@@ -1,6 +1,5 @@
 import { SiteHeader } from "@/components/site/SiteHeader";
 import { Hero } from "@/components/site/Hero";
-import { TrustBar } from "@/components/site/TrustBar";
 import { Services } from "@/components/site/Services";
 import { Stats } from "@/components/site/Stats";
 import { Industries } from "@/components/site/Industries";
@@ -13,7 +12,6 @@ const Index = () => {
       <SiteHeader />
       <main>
         <Hero />
-        <TrustBar />
         <Services />
         <Stats />
         <Industries />
