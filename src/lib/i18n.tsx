@@ -23,7 +23,7 @@ const sv: Dict = {
   "cap.emc.range": "9 kHz – 6 GHz",
   "cap.emc.l1": "Pre-compliance, emission & immunitet",
   "cap.emc.l2": "Felsökning på plats och i lab",
-  "cap.emc.l3": "EN / IEC / CISPR-standarder",
+  "cap.emc.l3": "EN / IEC / FCC-standarder",
   "cap.pq.title": "Elkvalitet",
   "cap.pq.range": "EN 50160",
   "cap.pq.l1": "Övertoner, transienter, flicker",
