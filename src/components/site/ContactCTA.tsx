@@ -44,11 +44,11 @@ export const ContactCTA = () => {
                   info@kooma.se
                 </a>
                 <a
-                  href="tel:+46705425558"
+                  href="tel:+46300692010"
                   className="inline-flex items-center gap-2 opacity-90 hover:opacity-100"
                 >
                   <Phone className="size-4" />
-                  +46 (0)70 542 55 58
+                  +46 300 692 010
                 </a>
               </div>
             </div>
