@@ -5,7 +5,7 @@ export type Lang = "sv" | "en";
 type Dict = Record<string, string>;
 
 const sv: Dict = {
-  "hero.kicker": "Kooma Engineering — Stockholm",
+  "hero.kicker": "Kooma Engineering — Göteborg",
   "hero.tag1": "EMC",
   "hero.tag2": "Elkvalitet",
   "hero.tag3": "Sedan 2014",
@@ -51,7 +51,7 @@ const sv: Dict = {
     "11 år i branschen och över 450 genomförda uppdrag inom industri, fordon, energi och medicinteknik.",
   "faq.q5": "Var är ni baserade?",
   "faq.a5":
-    "Stockholm, men vi arbetar med kunder i hela Sverige och utför mätningar på plats hos er.",
+    "Göteborg (Västra Frölunda), men vi arbetar med kunder i hela Sverige och utför mätningar på plats hos er.",
   "faq.q6": "Hur kommer vi igång?",
   "faq.a6":
     "Maila info@kooma.se eller ring oss. Vi återkommer inom 24 timmar med ett första samtal — utan förpliktelser.",
@@ -75,7 +75,7 @@ const sv: Dict = {
 };
 
 const en: Dict = {
-  "hero.kicker": "Kooma Engineering — Stockholm",
+  "hero.kicker": "Kooma Engineering — Gothenburg",
   "hero.tag1": "EMC",
   "hero.tag2": "Power quality",
   "hero.tag3": "Since 2014",
@@ -121,7 +121,7 @@ const en: Dict = {
     "11 years in the field and more than 450 completed assignments across industry, automotive, energy and medical technology.",
   "faq.q5": "Where are you based?",
   "faq.a5":
-    "Stockholm, but we work with clients across Sweden and perform measurements on-site.",
+    "Gothenburg (Västra Frölunda), but we work with clients across Sweden and perform measurements on-site.",
   "faq.q6": "How do we get started?",
   "faq.a6":
     "Email info@kooma.se or give us a call. We come back within 24 hours for an initial conversation — no strings attached.",
