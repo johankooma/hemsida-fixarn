@@ -11,12 +11,12 @@ export const Contact = () => {
     >
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-cover bg-center opacity-[0.18] [filter:blur(2px)_grayscale(100%)]"
+        className="absolute inset-0 -z-10 bg-cover bg-center opacity-70 [filter:blur(1px)_grayscale(100%)_brightness(1.8)_contrast(1.1)]"
         style={{ backgroundImage: `url(${contactMap})` }}
       />
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-gradient-to-b from-ink/70 via-ink/85 to-ink"
+        className="absolute inset-0 -z-10 bg-gradient-to-b from-ink/40 via-ink/30 to-ink/70"
       />
       <div className="container max-w-5xl">
         <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-background/50 mb-16">
