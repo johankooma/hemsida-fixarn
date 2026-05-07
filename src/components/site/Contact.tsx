@@ -1,13 +1,23 @@
 import { ArrowUpRight } from "lucide-react";
 import { useI18n } from "@/lib/i18n";
+import contactMap from "@/assets/contact-map.jpg";
 
 export const Contact = () => {
   const { t } = useI18n();
   return (
     <section
       id="kontakt"
-      className="py-32 border-t border-border bg-ink text-background"
+      className="relative py-32 border-t border-border bg-ink text-background overflow-hidden isolate"
     >
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10 bg-cover bg-center opacity-[0.18] [filter:blur(2px)_grayscale(100%)]"
+        style={{ backgroundImage: `url(${contactMap})` }}
+      />
+      <div
+        aria-hidden
+        className="absolute inset-0 -z-10 bg-gradient-to-b from-ink/70 via-ink/85 to-ink"
+      />
       <div className="container max-w-5xl">
         <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-background/50 mb-16">
           {t("contact.section")}
