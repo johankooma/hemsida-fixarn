@@ -1,15 +1,18 @@
-const numbers = [
-  { v: "11", label: "År i branschen" },
-  { v: "450+", label: "Genomförda uppdrag" },
-  { v: "6 GHz", label: "Övre mätfrekvens" },
-];
+import { useI18n } from "@/lib/i18n";
 
 export const Numbers = () => {
+  const { t } = useI18n();
+  const numbers = [
+    { v: "11", label: t("num.years") },
+    { v: "450+", label: t("num.assignments") },
+    { v: "6 GHz", label: t("num.freq") },
+  ];
+
   return (
     <section className="py-32 border-t border-border">
       <div className="container max-w-5xl">
         <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-ink-soft mb-16">
-          03 — I siffror
+          {t("num.section")}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-6">

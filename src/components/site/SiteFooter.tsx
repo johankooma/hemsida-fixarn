@@ -1,6 +1,8 @@
 import logo from "@/assets/kooma-logo.png";
+import { useI18n } from "@/lib/i18n";
 
 export const SiteFooter = () => {
+  const { t } = useI18n();
   return (
     <footer className="border-t border-border py-14">
       <div className="container">
@@ -14,32 +16,30 @@ export const SiteFooter = () => {
               className="h-9 w-auto mb-5"
             />
             <p className="text-sm text-ink-soft max-w-sm leading-relaxed">
-              Erfaren ingenjörspartner inom mätteknik, tester och
-              validering för svensk industri.
+              {t("footer.tagline")}
             </p>
           </div>
 
           <div className="md:col-span-3">
-            <h3 className="text-sm font-semibold text-ink mb-4">Tjänster</h3>
+            <h3 className="text-sm font-semibold text-ink mb-4">{t("footer.services")}</h3>
             <ul className="space-y-2 text-sm text-ink-soft">
-              <li><a href="#tjanster" className="hover:text-ink">Mätteknik</a></li>
-              <li><a href="#tjanster" className="hover:text-ink">Tester & Validering</a></li>
-              <li><a href="#tjanster" className="hover:text-ink">Ingenjörskonsulter</a></li>
+              <li><a href="#vad" className="hover:text-ink">EMC</a></li>
+              <li><a href="#vad" className="hover:text-ink">{t("cap.pq.title")}</a></li>
             </ul>
           </div>
 
           <div className="md:col-span-4">
-            <h3 className="text-sm font-semibold text-ink mb-4">Kontakt</h3>
+            <h3 className="text-sm font-semibold text-ink mb-4">{t("footer.contact")}</h3>
             <ul className="space-y-2 text-sm text-ink-soft">
               <li><a href="mailto:info@kooma.se" className="hover:text-ink">info@kooma.se</a></li>
               <li><a href="tel:+4684000000" className="hover:text-ink">+46 8 400 00 00</a></li>
-              <li>Stockholm, Sverige</li>
+              <li>{t("contact.location")}</li>
             </ul>
           </div>
         </div>
 
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-ink-soft">
-          <p>© {new Date().getFullYear()} Kooma Engineering AB. Alla rättigheter förbehållna.</p>
+          <p>© {new Date().getFullYear()} Kooma Engineering AB. {t("footer.rights")}</p>
           <p>Org.nr 556xxx-xxxx</p>
         </div>
       </div>

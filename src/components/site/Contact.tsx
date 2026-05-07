@@ -1,6 +1,8 @@
 import { ArrowUpRight } from "lucide-react";
+import { useI18n } from "@/lib/i18n";
 
 export const Contact = () => {
+  const { t } = useI18n();
   return (
     <section
       id="kontakt"
@@ -8,11 +10,11 @@ export const Contact = () => {
     >
       <div className="container max-w-5xl">
         <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-background/50 mb-16">
-          04 — Kontakt
+          {t("contact.section")}
         </p>
 
         <h2 className="font-display text-4xl sm:text-6xl lg:text-7xl font-light leading-[1.02] tracking-tight mb-16 text-balance">
-          Hör av dig — vi svarar inom 24 timmar.
+          {t("contact.title")}
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-3xl">
@@ -22,7 +24,7 @@ export const Contact = () => {
           >
             <div>
               <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/50 mb-2">
-                Email
+                {t("contact.email")}
               </span>
               <span className="text-2xl font-light">info@kooma.se</span>
             </div>
@@ -35,7 +37,7 @@ export const Contact = () => {
           >
             <div>
               <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/50 mb-2">
-                Telefon
+                {t("contact.phone")}
               </span>
               <span className="text-2xl font-light">+46 8 400 00 00</span>
             </div>
@@ -44,7 +46,7 @@ export const Contact = () => {
         </div>
 
         <div className="mt-16 text-sm text-background/50">
-          Stockholm, Sverige
+          {t("contact.location")}
         </div>
       </div>
     </section>

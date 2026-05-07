@@ -5,10 +5,12 @@ import { Numbers } from "@/components/site/Numbers";
 import { Contact } from "@/components/site/Contact";
 import { FAQ } from "@/components/site/FAQ";
 import { SiteFooter } from "@/components/site/SiteFooter";
+import { LangToggle } from "@/components/site/LangToggle";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
+      <LangToggle />
       <main>
         <LogoHero />
         <Pitch />

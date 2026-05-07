@@ -1,35 +1,27 @@
-const items = [
-  {
-    no: "A",
-    title: "EMC",
-    range: "9 kHz – 6 GHz",
-    lines: [
-      "Pre-compliance, emission & immunitet",
-      "Felsökning på plats och i lab",
-      "EN / IEC / CISPR-standarder",
-    ],
-  },
-  {
-    no: "B",
-    title: "Elkvalitet",
-    range: "EN 50160",
-    lines: [
-      "Övertoner, transienter, flicker",
-      "Långtidsmätning i ställverk",
-      "Rotorsaksanalys & åtgärdsförslag",
-    ],
-  },
-];
+import { useI18n } from "@/lib/i18n";
 
 export const Capabilities = () => {
+  const { t } = useI18n();
+  const items = [
+    {
+      no: "A",
+      title: t("cap.emc.title"),
+      range: t("cap.emc.range"),
+      lines: [t("cap.emc.l1"), t("cap.emc.l2"), t("cap.emc.l3")],
+    },
+    {
+      no: "B",
+      title: t("cap.pq.title"),
+      range: t("cap.pq.range"),
+      lines: [t("cap.pq.l1"), t("cap.pq.l2"), t("cap.pq.l3")],
+    },
+  ];
+
   return (
-    <section
-      id="vad"
-      className="py-32 border-t border-border bg-surface"
-    >
+    <section id="vad" className="py-32 border-t border-border bg-surface">
       <div className="container max-w-5xl">
         <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-ink-soft mb-16">
-          02 — Vad vi gör
+          {t("cap.section")}
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
