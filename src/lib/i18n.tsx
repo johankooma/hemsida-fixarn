@@ -60,7 +60,9 @@ const sv: Dict = {
   "contact.title": "Hör av dig — vi svarar inom 24 timmar.",
   "contact.email": "Email",
   "contact.phone": "Telefon",
+  "contact.visitingLabel": "Besöksadress",
   "contact.location": "Hulda Lindgren gata 3 2tr, 42131 Västra Frölunda",
+  "contact.postalLabel": "Postadress",
   "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
   "footer.tagline":
@@ -126,7 +128,9 @@ const en: Dict = {
   "contact.title": "Get in touch — we reply within 24 hours.",
   "contact.email": "Email",
   "contact.phone": "Phone",
+  "contact.visitingLabel": "Visiting address",
   "contact.location": "Hulda Lindgren gata 3 2tr, 42131 Västra Frölunda",
+  "contact.postalLabel": "Postal address",
   "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
   "footer.tagline":
