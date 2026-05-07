@@ -32,7 +32,8 @@ export const SiteFooter = () => {
             <h3 className="text-sm font-semibold text-ink mb-4">{t("footer.contact")}</h3>
             <ul className="space-y-2 text-sm text-ink-soft">
               <li><a href="mailto:info@kooma.se" className="hover:text-ink">info@kooma.se</a></li>
-              <li><a href="tel:+4684000000" className="hover:text-ink">+46 8 400 00 00</a></li>
+              <li><a href="tel:+46705425558" className="hover:text-ink">{t("contact.phoneDirect")}</a></li>
+              <li><a href="tel:+46300692010" className="hover:text-ink">{t("contact.phoneSwitchboard")}</a></li>
               <li>{t("contact.location")}</li>
               <li>{t("contact.postal")}</li>
             </ul>
