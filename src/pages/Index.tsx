@@ -6,6 +6,7 @@ import { Contact } from "@/components/site/Contact";
 import { FAQ } from "@/components/site/FAQ";
 import { SiteFooter } from "@/components/site/SiteFooter";
 import { LangToggle } from "@/components/site/LangToggle";
+import { CookieBanner } from "@/components/site/CookieBanner";
 
 const Index = () => {
   return (
