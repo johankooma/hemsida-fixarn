@@ -45,8 +45,19 @@ export const Contact = () => {
           </a>
         </div>
 
-        <div className="mt-16 text-sm text-background/50">
-          {t("contact.location")}
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-background/50 max-w-3xl">
+          <div>
+            <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/40 mb-1">
+              {t("contact.visitingLabel")}
+            </span>
+            {t("contact.location")}
+          </div>
+          <div>
+            <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/40 mb-1">
+              {t("contact.postalLabel")}
+            </span>
+            {t("contact.postal")}
+          </div>
         </div>
       </div>
     </section>
