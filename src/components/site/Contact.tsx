@@ -16,7 +16,7 @@ export const Contact = () => {
       />
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-gradient-to-b from-background/40 via-background/20 to-background/60 font-normal"
+        className="absolute inset-0 -z-10 bg-gradient-to-b from-background/40 via-background/20 to-background/60 font-normal text-slate-400"
       />
       <div className="container max-w-5xl relative">
         <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-ink-soft mb-16">
