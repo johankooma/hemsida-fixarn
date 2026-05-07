@@ -71,6 +71,12 @@ const sv: Dict = {
   "footer.services": "Tjänster",
   "footer.contact": "Kontakt",
   "footer.rights": "Alla rättigheter förbehållna.",
+
+  "cookie.text": "Vi använder cookies för att förbättra din upplevelse. Du väljer själv vilka du accepterar.",
+  "cookie.accept": "Acceptera alla",
+  "cookie.reject": "Endast nödvändiga",
+  "cookie.link": "Läs mer",
+  "cookie.aria": "Cookie-samtycke",
 };
 
 const en: Dict = {
@@ -140,6 +146,12 @@ const en: Dict = {
   "footer.services": "Services",
   "footer.contact": "Contact",
   "footer.rights": "All rights reserved.",
+
+  "cookie.text": "We use cookies to improve your experience. You choose which ones to accept.",
+  "cookie.accept": "Accept all",
+  "cookie.reject": "Necessary only",
+  "cookie.link": "Read more",
+  "cookie.aria": "Cookie consent",
 };
 
 const dicts: Record<Lang, Dict> = { sv, en };
