@@ -7,19 +7,19 @@ export const Contact = () => {
   return (
     <section
       id="kontakt"
-      className="relative py-32 border-t border-border bg-ink text-background overflow-hidden isolate"
+      className="relative py-32 border-t border-border bg-background text-ink overflow-hidden isolate"
     >
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-cover bg-center opacity-70 [filter:blur(1px)_grayscale(100%)_brightness(1.8)_contrast(1.1)]"
+        className="absolute inset-0 -z-10 bg-cover bg-center opacity-60 [filter:blur(1.5px)_grayscale(100%)]"
         style={{ backgroundImage: `url(${contactMap})` }}
       />
       <div
         aria-hidden
-        className="absolute inset-0 -z-10 bg-gradient-to-b from-ink/40 via-ink/30 to-ink/70"
+        className="absolute inset-0 -z-10 bg-gradient-to-b from-background/40 via-background/20 to-background/60"
       />
-      <div className="container max-w-5xl">
-        <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-background/50 mb-16">
+      <div className="container max-w-5xl relative">
+        <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-ink-soft mb-16">
           {t("contact.section")}
         </p>
 
@@ -30,40 +30,40 @@ export const Contact = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-3xl">
           <a
             href="mailto:info@kooma.se"
-            className="group border-t border-background/20 pt-6 flex items-start justify-between hover:border-background transition-colors"
+            className="group border-t border-ink/20 pt-6 flex items-start justify-between hover:border-ink transition-colors"
           >
             <div>
-              <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/50 mb-2">
+              <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-ink-soft mb-2">
                 {t("contact.email")}
               </span>
               <span className="text-2xl font-light">info@kooma.se</span>
             </div>
-            <ArrowUpRight className="size-5 text-background/60 group-hover:text-background group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+            <ArrowUpRight className="size-5 text-ink-soft group-hover:text-ink group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
           </a>
 
           <a
             href="tel:+46300692010"
-            className="group border-t border-background/20 pt-6 flex items-start justify-between hover:border-background transition-colors"
+            className="group border-t border-ink/20 pt-6 flex items-start justify-between hover:border-ink transition-colors"
           >
             <div>
-              <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/50 mb-2">
+              <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-ink-soft mb-2">
                 {t("contact.phoneSwitchboardLabel")}
               </span>
               <span className="text-2xl font-light">{t("contact.phoneSwitchboard")}</span>
             </div>
-            <ArrowUpRight className="size-5 text-background/60 group-hover:text-background group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
+            <ArrowUpRight className="size-5 text-ink-soft group-hover:text-ink group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
           </a>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-background/50 max-w-3xl">
+        <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-ink-soft max-w-3xl">
           <div>
-            <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/40 mb-1">
+            <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-ink-soft/70 mb-1">
               {t("contact.visitingLabel")}
             </span>
             {t("contact.location")}
           </div>
           <div>
-            <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/40 mb-1">
+            <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-ink-soft/70 mb-1">
               {t("contact.postalLabel")}
             </span>
             {t("contact.postal")}
