@@ -61,6 +61,7 @@ const sv: Dict = {
   "contact.email": "Email",
   "contact.phoneSwitchboardLabel": "Växel",
   "contact.phoneSwitchboard": "+46 300 692 010",
+  "contact.visitingLabel": "Besöksadress",
   "contact.location": "Hulda Lindgren gata 3 2tr, 42131 Västra Frölunda",
   "contact.postalLabel": "Postadress",
   "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
