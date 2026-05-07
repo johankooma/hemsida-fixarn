@@ -31,18 +31,30 @@ export const Contact = () => {
             <ArrowUpRight className="size-5 text-background/60 group-hover:text-background group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
           </a>
 
-          <a
-            href="tel:+4684000000"
-            className="group border-t border-background/20 pt-6 flex items-start justify-between hover:border-background transition-colors"
-          >
-            <div>
-              <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/50 mb-2">
-                {t("contact.phone")}
-              </span>
-              <span className="text-2xl font-light">+46 8 400 00 00</span>
+          <div className="group border-t border-background/20 pt-6">
+            <div className="flex items-start justify-between mb-4">
+              <div>
+                <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/50 mb-2">
+                  {t("contact.phoneDirectLabel")}
+                </span>
+                <a href="tel:+46705425558" className="text-2xl font-light hover:text-background/80 transition-colors">
+                  {t("contact.phoneDirect")}
+                </a>
+              </div>
+              <ArrowUpRight className="size-5 text-background/60" />
             </div>
-            <ArrowUpRight className="size-5 text-background/60 group-hover:text-background group-hover:-translate-y-0.5 group-hover:translate-x-0.5 transition-transform" />
-          </a>
+            <div className="flex items-start justify-between">
+              <div>
+                <span className="block text-[10px] font-mono uppercase tracking-[0.3em] text-background/50 mb-2">
+                  {t("contact.phoneSwitchboardLabel")}
+                </span>
+                <a href="tel:+46300692010" className="text-2xl font-light hover:text-background/80 transition-colors">
+                  {t("contact.phoneSwitchboard")}
+                </a>
+              </div>
+              <ArrowUpRight className="size-5 text-background/60" />
+            </div>
+          </div>
         </div>
 
         <div className="mt-16 grid grid-cols-1 sm:grid-cols-2 gap-6 text-sm text-background/50 max-w-3xl">
