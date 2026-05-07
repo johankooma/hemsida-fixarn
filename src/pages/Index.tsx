@@ -21,6 +21,7 @@ const Index = () => {
         <Contact />
       </main>
       <SiteFooter />
+      <CookieBanner />
     </div>
   );
 };
