@@ -60,7 +60,8 @@ const sv: Dict = {
   "contact.title": "Hör av dig — vi svarar inom 24 timmar.",
   "contact.email": "Email",
   "contact.phone": "Telefon",
-  "contact.location": "Stockholm, Sverige",
+  "contact.location": "Hulda Lindgren gata 3 2tr, 42131 Västra Frölunda",
+  "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
   "footer.tagline":
     "Erfaren ingenjörspartner inom mätteknik, tester och validering för svensk industri.",
@@ -125,7 +126,8 @@ const en: Dict = {
   "contact.title": "Get in touch — we reply within 24 hours.",
   "contact.email": "Email",
   "contact.phone": "Phone",
-  "contact.location": "Stockholm, Sweden",
+  "contact.location": "Hulda Lindgren gata 3 2tr, 42131 Västra Frölunda",
+  "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
   "footer.tagline":
     "Experienced engineering partner in measurement, testing and validation for industry.",

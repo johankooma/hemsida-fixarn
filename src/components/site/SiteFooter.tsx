@@ -40,7 +40,7 @@ export const SiteFooter = () => {
 
         <div className="pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-ink-soft">
           <p>© {new Date().getFullYear()} Kooma Engineering AB. {t("footer.rights")}</p>
-          <p>Org.nr 556xxx-xxxx</p>
+          <p>Org.nr 559006-8150</p>
         </div>
       </div>
     </footer>
