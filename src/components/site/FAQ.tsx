@@ -34,13 +34,13 @@ const faqs = [
 
 export const FAQ = () => {
   return (
-    <section id="faq" className="py-24 md:py-32">
-      <div className="container max-w-3xl">
-        <p className="text-xs font-mono uppercase tracking-[0.25em] text-ink-soft mb-8">
-          FAQ
+    <section id="faq" className="py-32 border-t border-border">
+      <div className="container max-w-5xl">
+        <p className="text-[10px] font-mono uppercase tracking-[0.35em] text-ink-soft mb-16">
+          05 — Frågor
         </p>
-        <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-light leading-tight text-ink mb-12">
-          Vanliga frågor.
+        <h2 className="font-display text-4xl sm:text-5xl lg:text-6xl font-light leading-[1.05] tracking-tight text-ink mb-16 max-w-3xl">
+          Det vi oftast får frågan om.
         </h2>
 
         <Accordion type="single" collapsible className="w-full">
