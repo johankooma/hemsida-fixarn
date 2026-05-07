@@ -34,6 +34,7 @@ export const SiteFooter = () => {
               <li><a href="mailto:info@kooma.se" className="hover:text-ink">info@kooma.se</a></li>
               <li><a href="tel:+4684000000" className="hover:text-ink">+46 8 400 00 00</a></li>
               <li>{t("contact.location")}</li>
+              <li>{t("contact.postal")}</li>
             </ul>
           </div>
         </div>
