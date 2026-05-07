@@ -93,7 +93,7 @@ const en: Dict = {
   "cap.emc.range": "9 kHz – 6 GHz",
   "cap.emc.l1": "Pre-compliance, emission & immunity",
   "cap.emc.l2": "On-site and in-lab troubleshooting",
-  "cap.emc.l3": "EN / IEC / CISPR standards",
+  "cap.emc.l3": "EN / IEC / FCC standards",
   "cap.pq.title": "Power quality",
   "cap.pq.range": "EN 50160",
   "cap.pq.l1": "Harmonics, transients, flicker",
