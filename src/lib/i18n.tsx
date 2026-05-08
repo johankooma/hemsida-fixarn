@@ -29,6 +29,11 @@ const sv: Dict = {
   "cap.pq.l1": "Mätning av övertoner, transienter & flicker",
   "cap.pq.l2": "Rotorsaksanalys — vi pekar ut boven",
   "cap.pq.l3": "Aktiva & passiva filter som åtgärdar problemet",
+  "cap.fs.title": "Functional Safety × EMC",
+  "cap.fs.range": "ISO 13849 · ISO 19014",
+  "cap.fs.l1": "Spec & design för säkerhetsrelaterade styrsystem",
+  "cap.fs.l2": "Sömlöst flöde från krav till verifiering",
+  "cap.fs.l3": "Höjd EMC-immunitet där safety kräver det",
 
   "num.section": "03 — I siffror",
   "num.years": "År i branschen",
@@ -104,6 +109,11 @@ const en: Dict = {
   "cap.pq.l1": "Measurement of harmonics, transients & flicker",
   "cap.pq.l2": "Root-cause analysis — we name the culprit",
   "cap.pq.l3": "Active & passive filters that fix the problem",
+  "cap.fs.title": "Functional Safety × EMC",
+  "cap.fs.range": "ISO 13849 · ISO 19014",
+  "cap.fs.l1": "Spec & design of safety-related control systems",
+  "cap.fs.l2": "Seamless flow from requirements to verification",
+  "cap.fs.l3": "Elevated EMC immunity where safety demands it",
 
   "num.section": "03 — In numbers",
   "num.years": "Years in the field",
