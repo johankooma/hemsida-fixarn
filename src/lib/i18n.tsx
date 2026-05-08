@@ -53,7 +53,7 @@ const sv: Dict = {
     "Analys av spänning, övertoner, transienter och flicker enligt EN 50160. Vi identifierar källor till störningar i ditt elnät och föreslår åtgärder.",
   "faq.q4": "Hur lång erfarenhet har ni?",
   "faq.a4":
-    "11 år i branschen och över 450 genomförda uppdrag inom industri, fordon, energi och medicinteknik.",
+    "Kooma Engineering har funnits i 11 år. Vårt team samlar på sig tillsammans över 10 års erfarenhet inom området, med mer än 450 genomförda uppdrag inom industri, fordon, energi och medicinteknik.",
   "faq.q5": "Var är ni baserade?",
   "faq.a5":
     "Göteborg (Västra Frölunda), men vi arbetar med kunder i hela Sverige och utför mätningar på plats hos er.",
