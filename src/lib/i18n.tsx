@@ -133,7 +133,7 @@ const en: Dict = {
     "Analysis of voltage, harmonics, transients and flicker according to EN 50160. We identify the sources of disturbances in your grid and propose remediation.",
   "faq.q4": "How experienced are you?",
   "faq.a4":
-    "11 years in the field and more than 450 completed assignments across industry, automotive, energy and medical technology.",
+    "Kooma Engineering has been in business for 11 years. Our team brings over 10 years of combined experience, with more than 450 completed assignments across industry, automotive, energy and medical technology.",
   "faq.q5": "Where are you based?",
   "faq.a5":
     "Gothenburg (Västra Frölunda), but we work with clients across Sweden and perform measurements on-site.",
