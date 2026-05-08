@@ -44,7 +44,7 @@ const sv: Dict = {
   "faq.title": "Det vi oftast får frågan om.",
   "faq.q1": "Vad gör Kooma Engineering?",
   "faq.a1":
-    "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem.",
+    "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem. Vi har särskild kompetens inom IEC 60204 (maskinsäkerhet) och IEC 61010 (mät- och laboratorieutrustning).",
   "faq.q2": "Vilka EMC-mätningar utför ni?",
   "faq.a2":
     "Pre-compliance och felsökning enligt EN/IEC-standarder. Vi täcker frekvensområdet 9 kHz – 6 GHz för både emission och immunitet.",
@@ -124,7 +124,7 @@ const en: Dict = {
   "faq.title": "The things we are asked the most.",
   "faq.q1": "What does Kooma Engineering do?",
   "faq.a1":
-    "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them.",
+    "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them. We have particular expertise in IEC 60204 (machinery safety) and IEC 61010 (measurement and laboratory equipment).",
   "faq.q2": "What EMC measurements do you perform?",
   "faq.a2":
     "Pre-compliance and troubleshooting according to EN/IEC standards. We cover 9 kHz – 6 GHz for both emission and immunity.",
