@@ -5,7 +5,7 @@ export const Numbers = () => {
   const numbers = [
     { v: "11", label: t("num.years") },
     { v: "450+", label: t("num.assignments") },
-    { v: "6 GHz", label: t("num.freq") },
+    { v: "4", label: t("num.freq") },
   ];
 
   return (
