@@ -47,7 +47,7 @@ const sv: Dict = {
     "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem. Vi har särskild kompetens inom IEC 60204 (maskinsäkerhet) och IEC 61010 (mät- och laboratorieutrustning).",
   "faq.q2": "Vilka EMC-mätningar utför ni?",
   "faq.a2":
-    "Pre-compliance och felsökning enligt EN/IEC-standarder. Vi täcker frekvensområdet 9 kHz – 6 GHz för både emission och immunitet.",
+    "Pre-compliance och felsökning enligt EN/IEC-standarder, 9 kHz – 6 GHz för både emission och immunitet. Vi har särskild kompetens inom EMC för funktionssäkerhet enligt IEC 61000-6-7 — där kraven på immunitet är som högst.",
   "faq.q3": "Vad menas med elkvalitet?",
   "faq.a3":
     "Analys av spänning, övertoner, transienter och flicker enligt EN 50160. Vi identifierar källor till störningar i ditt elnät och föreslår åtgärder.",
@@ -127,7 +127,7 @@ const en: Dict = {
     "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them. We have particular expertise in IEC 60204 (machinery safety) and IEC 61010 (measurement and laboratory equipment).",
   "faq.q2": "What EMC measurements do you perform?",
   "faq.a2":
-    "Pre-compliance and troubleshooting according to EN/IEC standards. We cover 9 kHz – 6 GHz for both emission and immunity.",
+    "Pre-compliance and troubleshooting according to EN/IEC standards, 9 kHz – 6 GHz for both emission and immunity. We have particular expertise in EMC for functional safety per IEC 61000-6-7 — where immunity requirements are at their highest.",
   "faq.q3": "What is power quality?",
   "faq.a3":
     "Analysis of voltage, harmonics, transients and flicker according to EN 50160. We identify the sources of disturbances in your grid and propose remediation.",
