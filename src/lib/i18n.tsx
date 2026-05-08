@@ -127,7 +127,7 @@ const en: Dict = {
     "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them. We have particular expertise in IEC 60204 (machinery safety) and IEC 61010 (measurement and laboratory equipment).",
   "faq.q2": "What EMC measurements do you perform?",
   "faq.a2":
-    "Verification according to EN/ISO standards, 9 kHz – 6 GHz for both emission and immunity. We have particular expertise in EMC for functional safety per IEC 61000-6-7 and ISO EN 13766 — where immunity requirements are at their highest.",
+    "Verification according to EN/ISO standards, 9 kHz – 6 GHz for both emission and immunity. We have particular expertise in EMC for functional safety per IEC 61000-6-7 and ISO EN 13766 — where immunity requirements are at their highest. We also deliver solutions, both active and passive filters depending on the application.",
   "faq.q3": "What is power quality?",
   "faq.a3":
     "Analysis of voltage, harmonics, transients and flicker according to EN 50160. We identify the sources of disturbances in your grid and propose remediation.",
