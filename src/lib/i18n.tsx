@@ -33,7 +33,7 @@ const sv: Dict = {
   "num.section": "03 — I siffror",
   "num.years": "År i branschen",
   "num.assignments": "Genomförda uppdrag",
-  "num.freq": "Övre mätfrekvens",
+  "num.freq": "Branscher vi täcker",
 
   "faq.section": "05 — Frågor",
   "faq.title": "Det vi oftast får frågan om.",
@@ -108,7 +108,7 @@ const en: Dict = {
   "num.section": "03 — In numbers",
   "num.years": "Years in the field",
   "num.assignments": "Completed assignments",
-  "num.freq": "Upper measurement frequency",
+  "num.freq": "Industries we serve",
 
   "faq.section": "05 — Questions",
   "faq.title": "The things we are asked the most.",
