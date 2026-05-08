@@ -25,6 +25,7 @@ export const SiteFooter = () => {
             <ul className="space-y-2 text-sm text-ink-soft">
               <li><a href="#vad" className="hover:text-ink">EMC</a></li>
               <li><a href="#vad" className="hover:text-ink">{t("cap.pq.title")}</a></li>
+              <li><a href="#vad" className="hover:text-ink">{t("cap.fs.title")}</a></li>
             </ul>
           </div>
 
