@@ -47,7 +47,7 @@ const sv: Dict = {
     "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem. Vi har särskild kompetens inom IEC 60204 (maskinsäkerhet) och IEC 61010 (mät- och laboratorieutrustning).",
   "faq.q2": "Vilka EMC-mätningar utför ni?",
   "faq.a2":
-    "Verifiering enligt EN/ISO-standarder, 9 kHz – 6 GHz för både emission och immunitet. Vi har särskild kompetens inom EMC för funktionssäkerhet enligt IEC 61000-6-7 samt ISO EN 13766 — där kraven på immunitet är som högst.",
+    "Verifiering enligt EN/ISO-standarder, 9 kHz – 6 GHz för både emission och immunitet. Vi har särskild kompetens inom EMC för funktionssäkerhet enligt IEC 61000-6-7 samt ISO EN 13766 — där kraven på immunitet är som högst. Vi levererar även lösningar, både aktiva och passiva filter beroende på applikation.",
   "faq.q3": "Vad menas med elkvalitet?",
   "faq.a3":
     "Analys av spänning, övertoner, transienter och flicker enligt EN 50160. Vi identifierar källor till störningar i ditt elnät och föreslår åtgärder.",
