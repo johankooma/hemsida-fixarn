@@ -15,6 +15,12 @@ export const Capabilities = () => {
       range: t("cap.pq.range"),
       lines: [t("cap.pq.l1"), t("cap.pq.l2"), t("cap.pq.l3")],
     },
+    {
+      no: "C",
+      title: t("cap.fs.title"),
+      range: t("cap.fs.range"),
+      lines: [t("cap.fs.l1"), t("cap.fs.l2"), t("cap.fs.l3")],
+    },
   ];
 
   return (
@@ -24,7 +30,7 @@ export const Capabilities = () => {
           {t("cap.section")}
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-px bg-border">
           {items.map((it) => (
             <div
               key={it.no}
