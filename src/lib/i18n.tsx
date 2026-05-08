@@ -31,7 +31,7 @@ const sv: Dict = {
   "cap.pq.l3": "Aktiva & passiva filter som åtgärdar problemet",
   "cap.fs.title": "Functional Safety × EMC",
   "cap.fs.range": "ISO 13849 · ISO 19014",
-  "cap.fs.l1": "Spec & design för säkerhetsrelaterade styrsystem",
+  "cap.fs.l1": "ISO EN 13849-1:2023 Annex L — säkerhetsrelaterade styrsystem",
   "cap.fs.l2": "Sömlöst flöde från krav till verifiering",
   "cap.fs.l3": "Höjd EMC-immunitet där safety kräver det",
 
@@ -111,7 +111,7 @@ const en: Dict = {
   "cap.pq.l3": "Active & passive filters that fix the problem",
   "cap.fs.title": "Functional Safety × EMC",
   "cap.fs.range": "ISO 13849 · ISO 19014",
-  "cap.fs.l1": "Spec & design of safety-related control systems",
+  "cap.fs.l1": "ISO EN 13849-1:2023 Annex L — safety-related control systems",
   "cap.fs.l2": "Seamless flow from requirements to verification",
   "cap.fs.l3": "Elevated EMC immunity where safety demands it",
 
