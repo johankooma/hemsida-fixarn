@@ -124,7 +124,7 @@ const en: Dict = {
   "faq.title": "The things we are asked the most.",
   "faq.q1": "What does Kooma Engineering do?",
   "faq.a1":
-    "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them. We have particular expertise in IEC 60204 (machinery safety) and IEC 61010 (measurement and laboratory equipment).",
+    "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them. We have particular expertise in IEC 60204 (machinery safety), IEC 61010 (measurement and laboratory equipment) and ISO EN 13849-1:2023 Annex L (safety-related control systems).",
   "faq.q2": "What EMC measurements do you perform?",
   "faq.a2":
     "Verification according to EN/ISO standards, 9 kHz – 6 GHz for both emission and immunity. We have particular expertise in EMC for functional safety per IEC 61000-6-7 and ISO EN 13766 — where immunity requirements are at their highest. We also deliver solutions, both active and passive filters depending on the application.",
