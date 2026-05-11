@@ -28,6 +28,7 @@ const sv: Dict = {
   "cap.pq.range": "EN 50160",
   "cap.pq.l1": "Mätning av övertoner, transienter & flicker",
   "cap.pq.l2": "Aktiva & passiva filter som åtgärdar problemet",
+  "cap.pq.l3": "Reaktiv effektkompensering — sluta betala för effekt du aldrig använder",
   "cap.fs.title": "Functional Safety",
   "cap.fs.range": "ISO 13849 · ISO 19014",
   "cap.fs.l1": "ISO EN 13849-1:2023 Annex L — säkerhetsrelaterade styrsystem",
