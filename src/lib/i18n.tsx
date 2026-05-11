@@ -31,7 +31,7 @@ const sv: Dict = {
   "cap.pq.l3": "Reaktiv effektkompensering — sluta betala för effekt du aldrig använder",
   "cap.fs.title": "Functional Safety",
   "cap.fs.range": "ISO 13849 · ISO 19014",
-  "cap.fs.l1": "ISO EN 13849-1:2023 Annex L — säkerhetsrelaterade styrsystem",
+  "cap.fs.l1": "Säkerhetsrelaterade styrsystem — där ett fel inte får kosta liv",
   "cap.fs.l2": "Sömlöst flöde från krav till verifiering",
   "cap.fs.l3": "Höjd EMC-immunitet där safety kräver det",
 
@@ -44,7 +44,7 @@ const sv: Dict = {
   "faq.title": "Det vi oftast får frågan om.",
   "faq.q1": "Vad gör Kooma Engineering?",
   "faq.a1":
-    "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem. Vi har särskild kompetens inom IEC 60204 (maskinsäkerhet) och IEC 61010 (mät- och laboratorieutrustning).",
+    "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem. Vi har särskild kompetens inom IEC 60204 (maskinsäkerhet), IEC 61010 (mät- och laboratorieutrustning) och ISO EN 13849-1:2023 Annex L (säkerhetsrelaterade styrsystem).",
   "faq.q2": "Vilka EMC-mätningar utför ni?",
   "faq.a2":
     "Verifiering enligt EN/ISO-standarder, 9 kHz – 6 GHz för både emission och immunitet. Vi har särskild kompetens inom EMC för funktionssäkerhet enligt IEC 61000-6-7 samt ISO EN 13766 — där kraven på immunitet är som högst. Vi levererar även lösningar, både aktiva och passiva filter beroende på applikation.",
@@ -111,7 +111,7 @@ const en: Dict = {
   "cap.pq.l3": "Reactive power compensation — stop paying for power you never use",
   "cap.fs.title": "Functional Safety",
   "cap.fs.range": "ISO 13849 · ISO 19014",
-  "cap.fs.l1": "ISO EN 13849-1:2023 Annex L — safety-related control systems",
+  "cap.fs.l1": "Safety-related control systems — where a single failure must not cost a life",
   "cap.fs.l2": "Seamless flow from requirements to verification",
   "cap.fs.l3": "Elevated EMC immunity where safety demands it",
 
@@ -124,7 +124,7 @@ const en: Dict = {
   "faq.title": "The things we are asked the most.",
   "faq.q1": "What does Kooma Engineering do?",
   "faq.a1":
-    "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them. We have particular expertise in IEC 60204 (machinery safety) and IEC 61010 (measurement and laboratory equipment).",
+    "We are an engineering partner specialised in EMC measurements, power quality analysis and functional safety. We help industry identify the right requirements — and then verify that products and installations meet them. We have particular expertise in IEC 60204 (machinery safety), IEC 61010 (measurement and laboratory equipment) and ISO EN 13849-1:2023 Annex L (safety-related control systems).",
   "faq.q2": "What EMC measurements do you perform?",
   "faq.a2":
     "Verification according to EN/ISO standards, 9 kHz – 6 GHz for both emission and immunity. We have particular expertise in EMC for functional safety per IEC 61000-6-7 and ISO EN 13766 — where immunity requirements are at their highest. We also deliver solutions, both active and passive filters depending on the application.",
