@@ -13,7 +13,7 @@ export const Capabilities = () => {
       no: "B",
       title: t("cap.pq.title"),
       range: t("cap.pq.range"),
-      lines: [t("cap.pq.l1"), t("cap.pq.l2")],
+      lines: [t("cap.pq.l1"), t("cap.pq.l2"), t("cap.pq.l3")],
     },
     {
       no: "C",
