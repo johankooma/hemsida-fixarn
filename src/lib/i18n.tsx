@@ -44,7 +44,7 @@ const sv: Dict = {
   "faq.title": "Det vi oftast får frågan om.",
   "faq.q1": "Vad gör Kooma Engineering?",
   "faq.a1":
-    "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem. Vi har särskild kompetens inom IEC 60204 (maskinsäkerhet) och IEC 61010 (mät- och laboratorieutrustning).",
+    "Vi är en ingenjörspartner specialiserad på EMC-mätningar, elkvalitetsanalys och funktionssäkerhet. Vi hjälper industrin att identifiera rätt krav — och sedan verifiera att produkter och anläggningar uppfyller dem. Vi har särskild kompetens inom IEC 60204 (maskinsäkerhet), IEC 61010 (mät- och laboratorieutrustning) och ISO EN 13849-1:2023 Annex L (säkerhetsrelaterade styrsystem).",
   "faq.q2": "Vilka EMC-mätningar utför ni?",
   "faq.a2":
     "Verifiering enligt EN/ISO-standarder, 9 kHz – 6 GHz för både emission och immunitet. Vi har särskild kompetens inom EMC för funktionssäkerhet enligt IEC 61000-6-7 samt ISO EN 13766 — där kraven på immunitet är som högst. Vi levererar även lösningar, både aktiva och passiva filter beroende på applikation.",
