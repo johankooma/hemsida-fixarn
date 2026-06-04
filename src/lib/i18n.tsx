@@ -8,7 +8,7 @@ const sv: Dict = {
   "hero.kicker": "Kooma Engineering — Göteborg",
   "hero.tag1": "EMC",
   "hero.tag2": "Elkvalitet",
-  "hero.tag3": "Sedan 2015",
+  "hero.tag3": "Sedan 2014",
   "hero.scroll": "Scrolla ner",
 
   "pitch.section": "01 — Manifest",
@@ -86,7 +86,7 @@ const en: Dict = {
   "hero.kicker": "Kooma Engineering — Gothenburg",
   "hero.tag1": "EMC",
   "hero.tag2": "Power quality",
-  "hero.tag3": "Since 2015",
+  "hero.tag3": "Since 2014",
   "hero.scroll": "Scroll down",
 
   "pitch.section": "01 — Manifesto",
