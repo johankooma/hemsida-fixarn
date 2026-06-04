@@ -8,7 +8,7 @@ const sv: Dict = {
   "hero.kicker": "Kooma Engineering — Göteborg",
   "hero.tag1": "EMC",
   "hero.tag2": "Elkvalitet",
-  "hero.tag3": "Sedan 2014",
+  "hero.tag3": "Sedan 2015",
   "hero.scroll": "Scrolla ner",
 
   "pitch.section": "01 — Manifest",
@@ -55,8 +55,7 @@ const sv: Dict = {
   "faq.a4":
     "Kooma Engineering har funnits i 11 år. Vårt team samlar på sig tillsammans över 20 års erfarenhet inom området, med mer än 450 genomförda uppdrag inom industri, fordon, energi och medicinteknik.",
   "faq.q5": "Var är ni baserade?",
-  "faq.a5":
-    "Göteborg (Västra Frölunda), men vi arbetar med kunder i hela Sverige och utför mätningar på plats hos er.",
+  "faq.a5": "Göteborg (Västra Frölunda), men vi arbetar med kunder i hela Sverige och utför mätningar på plats hos er.",
   "faq.q6": "Hur kommer vi igång?",
   "faq.a6":
     "Maila info@kooma.se eller ring oss. Vi återkommer inom 24 timmar med ett första samtal — utan förpliktelser.",
@@ -71,8 +70,7 @@ const sv: Dict = {
   "contact.postalLabel": "Postadress",
   "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
-  "footer.tagline":
-    "Erfaren ingenjörspartner inom mätteknik, tester och validering för svensk industri.",
+  "footer.tagline": "Erfaren ingenjörspartner inom mätteknik, tester och validering för svensk industri.",
   "footer.services": "Tjänster",
   "footer.contact": "Kontakt",
   "footer.rights": "Alla rättigheter förbehållna.",
@@ -135,8 +133,7 @@ const en: Dict = {
   "faq.a4":
     "Kooma Engineering has been in business for 11 years. Our team brings over 20 years of combined experience, with more than 450 completed assignments across industry, automotive, energy and medical technology.",
   "faq.q5": "Where are you based?",
-  "faq.a5":
-    "Gothenburg (Västra Frölunda), but we work with clients across Sweden and perform measurements on-site.",
+  "faq.a5": "Gothenburg (Västra Frölunda), but we work with clients across Sweden and perform measurements on-site.",
   "faq.q6": "How do we get started?",
   "faq.a6":
     "Email info@kooma.se or give us a call. We come back within 24 hours for an initial conversation — no strings attached.",
@@ -151,8 +148,7 @@ const en: Dict = {
   "contact.postalLabel": "Postal address",
   "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
-  "footer.tagline":
-    "Experienced engineering partner in measurement, testing and validation for industry.",
+  "footer.tagline": "Experienced engineering partner in measurement, testing and validation for industry.",
   "footer.services": "Services",
   "footer.contact": "Contact",
   "footer.rights": "All rights reserved.",
@@ -192,11 +188,7 @@ export const I18nProvider = ({ children }: { children: ReactNode }) => {
   const setLang = (l: Lang) => setLangState(l);
   const t = (k: string) => dicts[lang][k] ?? k;
 
-  return (
-    <I18nContext.Provider value={{ lang, setLang, t }}>
-      {children}
-    </I18nContext.Provider>
-  );
+  return <I18nContext.Provider value={{ lang, setLang, t }}>{children}</I18nContext.Provider>;
 };
 
 export const useI18n = () => useContext(I18nContext);
