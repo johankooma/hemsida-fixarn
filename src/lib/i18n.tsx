@@ -86,7 +86,7 @@ const en: Dict = {
   "hero.kicker": "Kooma Engineering — Gothenburg",
   "hero.tag1": "EMC",
   "hero.tag2": "Power quality",
-  "hero.tag3": "Since 2014",
+  "hero.tag3": "Since 2015",
   "hero.scroll": "Scroll down",
 
   "pitch.section": "01 — Manifesto",
