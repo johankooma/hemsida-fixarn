@@ -22,6 +22,9 @@ const Index = () => {
         <FAQ />
         <Contact />
       </main>
+      <div className="py-8 flex justify-center text-[11px] font-mono uppercase tracking-[0.35em] text-ink-soft">
+        {t("hero.h1")}
+      </div>
       <SiteFooter />
       <CookieBanner />
     </div>
