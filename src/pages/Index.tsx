@@ -1,3 +1,4 @@
+import { useI18n } from "@/lib/i18n";
 import { LogoHero } from "@/components/site/LogoHero";
 import { Pitch } from "@/components/site/Pitch";
 import { Capabilities } from "@/components/site/Capabilities";
@@ -9,6 +10,7 @@ import { LangToggle } from "@/components/site/LangToggle";
 import { CookieBanner } from "@/components/site/CookieBanner";
 
 const Index = () => {
+  const { t } = useI18n();
   return (
     <div className="min-h-screen bg-background">
       <LangToggle />
@@ -20,6 +22,9 @@ const Index = () => {
         <FAQ />
         <Contact />
       </main>
+      <div className="py-8 flex justify-center text-[11px] font-mono uppercase tracking-[0.35em] text-ink-soft">
+        {t("hero.h1")}
+      </div>
       <SiteFooter />
       <CookieBanner />
     </div>
