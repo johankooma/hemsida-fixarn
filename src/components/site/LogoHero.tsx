@@ -18,7 +18,11 @@ export const LogoHero = () => {
         className="w-[58vw] max-w-[480px] min-w-[220px] h-auto"
       />
 
-      <div className="mt-10 flex items-center gap-3 text-[11px] font-mono uppercase tracking-[0.35em] text-ink-soft">
+      <h1 className="mt-8 max-w-[680px] text-center font-display text-xl sm:text-2xl font-light tracking-tight text-ink px-4 text-balance">
+        {t("hero.h1")}
+      </h1>
+
+      <div className="mt-6 flex items-center gap-3 text-[11px] font-mono uppercase tracking-[0.35em] text-ink-soft">
         <span>{t("hero.tag1")}</span>
         <span className="size-1 rounded-full bg-ink-soft/50" />
         <span>{t("hero.tag2")}</span>
