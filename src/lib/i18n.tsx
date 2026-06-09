@@ -6,6 +6,7 @@ type Dict = Record<string, string>;
 
 const sv: Dict = {
   "hero.kicker": "Kooma Engineering — Göteborg",
+  "hero.h1": "EMC-mätning och Funktionell Säkerhet i Sverige",
   "hero.tag1": "EMC",
   "hero.tag2": "Elkvalitet",
   "hero.tag3": "Sedan 2014",
