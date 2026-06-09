@@ -56,7 +56,7 @@ const sv: Dict = {
   "faq.a4":
     "Kooma Engineering har funnits i 11 år. Vårt team samlar på sig tillsammans över 20 års erfarenhet inom området, med mer än 450 genomförda uppdrag inom industri, fordon, energi och medicinteknik.",
   "faq.q5": "Var är ni baserade?",
-  "faq.a5": "Göteborg (Västra Frölunda), men vi arbetar med kunder i hela Sverige och utför mätningar på plats hos er.",
+  "faq.a5": "Göteborg (Angered), men vi arbetar med kunder i hela Sverige och utför mätningar på plats hos er.",
   "faq.q6": "Hur kommer vi igång?",
   "faq.a6":
     "Maila info@kooma.se eller ring oss. Vi återkommer inom 24 timmar med ett första samtal — utan förpliktelser.",
@@ -67,7 +67,7 @@ const sv: Dict = {
   "contact.phoneSwitchboardLabel": "Växel",
   "contact.phoneSwitchboard": "+46 300 692 010",
   "contact.visitingLabel": "Besöksadress",
-  "contact.location": "Hulda Lindgren gata 3 2tr, 42131 Västra Frölunda",
+  "contact.location": "Gårdstensvägen 101, 424 61 Angered, Göteborg",
   "contact.postalLabel": "Postadress",
   "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
@@ -135,7 +135,7 @@ const en: Dict = {
   "faq.a4":
     "Kooma Engineering has been in business for 11 years. Our team brings over 20 years of combined experience, with more than 450 completed assignments across industry, automotive, energy and medical technology.",
   "faq.q5": "Where are you based?",
-  "faq.a5": "Gothenburg (Västra Frölunda), but we work with clients across Sweden and perform measurements on-site.",
+  "faq.a5": "Gothenburg (Angered), but we work with clients across Sweden and perform measurements on-site.",
   "faq.q6": "How do we get started?",
   "faq.a6":
     "Email info@kooma.se or give us a call. We come back within 24 hours for an initial conversation — no strings attached.",
@@ -146,7 +146,7 @@ const en: Dict = {
   "contact.phoneSwitchboardLabel": "Switchboard",
   "contact.phoneSwitchboard": "+46 300 692 010",
   "contact.visitingLabel": "Visiting address",
-  "contact.location": "Hulda Lindgren gata 3 2tr, 42131 Västra Frölunda",
+  "contact.location": "Gårdstensvägen 101, 424 61 Angered, Gothenburg",
   "contact.postalLabel": "Postal address",
   "contact.postal": "Kivra: 559006-8150, 10631 Stockholm SE",
 
