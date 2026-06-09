@@ -85,6 +85,7 @@ const sv: Dict = {
 
 const en: Dict = {
   "hero.kicker": "Kooma Engineering — Gothenburg",
+  "hero.h1": "EMC Testing & Functional Safety in Sweden",
   "hero.tag1": "EMC",
   "hero.tag2": "Power quality",
   "hero.tag3": "Since 2014",
