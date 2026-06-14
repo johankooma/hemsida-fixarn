@@ -18,6 +18,9 @@ const App = () => (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
+          <Route path="/cookies" element={<Cookies />} />
+          <Route path="/integritetspolicy" element={<Cookies />} />
+          <Route path="/privacy-policy" element={<Cookies />} />
           {/* 301 redirects from old URLs */}
           <Route path="/author/nina/*" element={<RedirectTo to="/#om" />} />
           <Route path="/tjanster/*" element={<RedirectTo to="/#tjanster" />} />
